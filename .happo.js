@@ -8,6 +8,6 @@ module.exports = {
           { url: 'http://ae43c45b.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-faq-default.inside.html', title: 'FAQ', variant: "inside"},
           { url: 'http://ae43c45b.ngrok.io/Website.UI.Template.v6.happo-url/patterns/apps-health-provider-search-default.inside.html', title: 'Health Providers', variant: "inside"},
           { url: 'http://ae43c45b.ngrok.io/Website.UI.Template.v6.happo-url/patterns/layout-header-default.default.html', title: 'header', variant: "inside" },
-          { url: 'https://www.uml.edu/about', title: 'home page'},
+          { url: 'https://www.uml.edu/', title: 'home page'},
         ],
   };
