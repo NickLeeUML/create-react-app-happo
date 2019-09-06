@@ -15,7 +15,7 @@ module.exports = {
           //{ url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-eventbrite-form-default.default.html', title: 'Eventbrite Form'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-events-list.default.html', title: 'Events list'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-events-slider.default.html', title: 'Events slider'},
-          { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-faq-default.default.html', title: 'FAQ'},=
+          { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-faq-default.default.html', title: 'FAQ'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-featured-profile-with-quote.default.html', title: 'Featured Profile', variant: 'quote'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-featured-profile-without-quote.default.html', title: 'Featured Profile', variant: 'no quote'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-global-alert-default.default.html', title: 'Global Alert'},
