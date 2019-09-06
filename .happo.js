@@ -31,7 +31,7 @@ module.exports = {
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-person-bio-default.default.html', title: 'Person Bio'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/#/components/person-list/show-photos', title: 'Person List', variant: 'Show Photos'},
           { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-person-list-hide-photos.default.html', title: 'Person List', variant: 'Hide Photos'},
-          // { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-photo-gallery-feed-default.default.html', title: 'Photo Gallery Feed'},
+          { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-photo-gallery-feed-default.default.html', title: 'Photo Gallery Feed'},
           // { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-resource-list-default.default.html', title: 'Resource List'},
           // { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-simple-search-default.default.html', title: 'Simple Search'},
           // { url: 'https://997addd2.ngrok.io/Website.UI.Template.v6.happo-url/patterns/components-sortable-list-default.default.html', title: 'Sortable List'},
