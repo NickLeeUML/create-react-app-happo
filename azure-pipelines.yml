@@ -4,7 +4,6 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 variables: 
   CURRENT_SHA : $(system.pullRequest.sourceCommitId)
-  HAPPO_CONFIG_FILE : './config.js'
 
 trigger:
 - master
@@ -19,7 +18,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    git checkout urlonly 
+    git checkout updateurls 
     value=$( sed 's/....$//' <<< $(System.PullRequest.SourceRepositoryURI))/pull/$(System.PullRequest.PullRequestNumber)
     echo "##vso[task.setvariable variable=CHANGE_URL]$value"
     temp=$(git merge-base origin/$(System.PullRequest.TargetBranch) $(System.PullRequest.SourceBranch))
