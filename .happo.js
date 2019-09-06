@@ -43,3 +43,17 @@ module.exports = {
 
         ],
   };
+
+
+  // targets: {
+  //   "chrome-small": new RemoteBrowserTarget('chrome', {
+  //     viewport: '800x600',
+  //   }),
+  //   "chrome-large": new RemoteBrowserTarget('chrome', {
+  //       viewport: '1024x900',
+  //   }),
+  //   'ios-safari' : new RemoteBrowserTarget('ios-safari',{
+  //       viewport: '375x667',
+  //     })
+    
+  // },
