@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 variables: 
   CURRENT_SHA : $(system.pullRequest.sourceCommitId)
-
+  
 trigger:
 - master
 
@@ -18,7 +18,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    git checkout updateurls 
+    git checkout addurl 
     value=$( sed 's/....$//' <<< $(System.PullRequest.SourceRepositoryURI))/pull/$(System.PullRequest.PullRequestNumber)
     echo "##vso[task.setvariable variable=CHANGE_URL]$value"
     temp=$(git merge-base origin/$(System.PullRequest.TargetBranch) $(System.PullRequest.SourceBranch))
